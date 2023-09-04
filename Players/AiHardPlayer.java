@@ -15,6 +15,7 @@ public class AiHardPlayer implements PlayerType {
 
     @Override
     public String getMove() {
+        System.out.println("Making move level \"hard\"");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 copyBoard[i][j] = board.getBoard()[i+1][j+1];

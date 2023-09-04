@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Game {
 
@@ -84,6 +85,9 @@ public class Game {
                     .mapToInt(Integer::parseInt)
                     .toArray();
             board.getMove(switchPlayer ? 'X' : 'O', coordinates[0], coordinates[1]);
+
+            TerminalCleaner.cleanTerminal();
+
             board.displayBoard();
             isResult = validator.checkIsWinner(switchPlayer ? 'X' : 'O');
             switchPlayer = !switchPlayer;
