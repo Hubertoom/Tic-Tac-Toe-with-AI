@@ -19,7 +19,7 @@ using power of **minimax algorithm**. <br/>
 You can play with your friend, with bot, or just watch bots' match. <br/>
 To start the game type: *start X user O user* <br/>
 Available commands: <br/>
-*start, user, ease, medium, hard* <br/>
+*start, user, ease, medium, hard, exit* <br/>
 
 example:
 *start user medium* - which means user is X player and bot <br/>
@@ -43,3 +43,5 @@ If you want to clone the repo:
 - or start with *Project from Version Control* in your IDE by providing the URL of this repository.
 
 ## Presentation video
+
+https://github.com/Hubertoom/Tic-Tac-Toe-with-AI/assets/137101859/f991cf24-1766-4e15-bbd8-80a21328682c
